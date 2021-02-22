@@ -102,16 +102,15 @@ h4 {text-transform: uppercase;
 
 h5 { text-transform: uppercase;
     font-size:1rem;
-    font-weight: normal;
     margin-top: .25rem;
     padding: .5rem;
     margin: 0;
     letter-spacing: .5rem;
     color:#FFF;
-    font-family:'Lato', Garamond, serif;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family: 'Lato', Garamond, serif;
     text-align:center;
-    background-color: #333;
-    
+    background-color: #333  
 }
 /* Section & Paragraph */
 
