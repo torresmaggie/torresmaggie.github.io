@@ -100,8 +100,11 @@
 
 *
 html {
-    font-family: 'josefinslab-regular;
     font-size:16px;
+}
+
+p{
+    font-family: 'lato';
 }
 
 h1{
@@ -172,6 +175,7 @@ p{
 }
 
 h3{
+    font-family: 'opensans';
 }
 
 time{
@@ -217,6 +221,7 @@ figure{ width:100%;
 }
 
 figcaption{
+    font-family: 'lato';
 }
 
 button{
@@ -230,6 +235,7 @@ aside{
     float: right;
     width: 30%;
     padding-bottom: 2rem;
+    
 }
 aside img{ 
     width: 75%;
