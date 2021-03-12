@@ -1,0 +1,258 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family: lato;
+    src: url(../fonts/sans-serif/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/sans-serif/montserrat-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:opensans;
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:josefinslab;
+    src: url(../fonts/serif/josefinslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:robotoslab;
+    src: url(../fonts/serif/robotoslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:rozhaone;
+    src: url(../fonts/serif/rozhaone-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:ultra;
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+*
+html {
+    font-family: 'josefinslab-regular;
+    font-size:16px;
+}
+
+h1{
+    letter-spacing: .125rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+    transform: rotate(-5deg);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'rozhaone';
+}
+h1 > span { 
+    background-color: darkred;
+    font-family: 'ultra';
+    color: antiquewhite;
+    
+}
+            
+nav{
+    float: left;
+    text-align: left;
+    border-top: .125rem solid #33658A;
+    border-bottom: .125rem solid #33658A;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    width: 100%;
+    font-family: 'lato';
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    word-spacing: 4rem;
+    padding-left: 4rem;
+    
+}
+nav a{
+    text-decoration: none;
+}
+         
+main{
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-family: "opensans";
+}
+
+main-section{
+    float: right;
+    width: 100%;
+    margin: 1rem;
+    max-width: 60%;
+}
+article{
+    float: left;
+    width: 70%;
+}
+.article-image{
+    
+    
+}
+
+img{
+}
+
+p{
+}
+
+h3{
+}
+
+time{
+    font-style: italic;
+}
+
+.subsection{
+    bottom: 3rem;
+    display: inline-block; 
+}
+
+.subsection > img { 
+    max-width: 20%;
+    
+}
+.row{
+    display:flex;
+    max-width: 80%;   
+}
+.column{
+    flex:30%;
+    float:left;
+    padding: .125rem;
+    
+}
+
+.column1{
+    float: left;
+    width: 100%;
+}
+
+.column2{ 
+    float:left;
+    width: 30%;
+}
+figure{ width:100%;
+    float:left;
+}
+
+.subsection> figure{ 
+    width: 20%;
+    display: inline-block;
+}
+
+figcaption{
+}
+
+button{
+    font-family: 'ultra';
+    background-color: royalblue;
+    color: white;
+    font-size: 2rem;
+}
+aside{
+    flex: right;
+    float: right;
+    width: 30%;
+    padding-bottom: 2rem;
+}
+aside img{ 
+    width: 75%;
+}
+
+.expand{
+    text-decoration: none; 
+}
+
+.copy{
+    text-align: left;
+}
+footer>p{
+    clear: both;
+    margin-top: 1.5rem;
+    bottom: 0;  
+    text-align: right;
+    color: black;
+    }
+footer a{
+    text-decoration: none;
+    color: black;
+   
+}
+          
+            
