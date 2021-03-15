@@ -116,6 +116,7 @@ h1{
     padding-bottom: 2rem;
     padding-top: 2rem;
     font-family: 'rozhaone';
+    font-style: bold;
 }
 h1 > span { 
     background-color: darkred;
@@ -138,14 +139,28 @@ nav{
     font-size: 1.5rem;
     word-spacing: 4rem;
     padding-left: 4rem;
+
     
 }
 nav a{
     text-decoration: none;
+       
 }
-         
-main{
+nav  a > span{
+    text-decoration: line-through;
+    transform: rotate(-5deg);
+
 }
+nav a:hover{
+    background: black;
+    color: antiquewhite;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
 
 h2{
     font-size: 2rem;
@@ -157,21 +172,17 @@ main-section{
     float: right;
     width: 100%;
     margin: 1rem;
-    max-width: 60%;
+   
 }
 article{
     float: left;
     width: 70%;
+    font-size: 1.125rem;
+    flex: 
 }
 .article-image{
-    
-    
-}
+    flex-wrap: wrap;
 
-img{
-}
-
-p{
 }
 
 h3{
@@ -183,7 +194,7 @@ time{
 }
 
 .subsection{
-    bottom: 3rem;
+    
     display: inline-block; 
 }
 
@@ -194,10 +205,10 @@ time{
 }
 .row{
     display:flex;
-    max-width: 80%;   
+    
 }
 .column{
-    float:30%;
+    
     float:left;
 
     
@@ -205,15 +216,15 @@ time{
 
 .column1{
     float: left;
-    width: 100%;
+    width: 30%;
 }
 
 .column2{ 
-    float:left;
+ 
     width: 30%;
 }
-figure{ width:100%;
-    float:left;
+figure{ width:30%;
+    
 }
 
 .subsection> figure{ 
@@ -227,10 +238,21 @@ figcaption{
 
 button{
     font-family: 'ultra';
-    background-color: royalblue;
+    background-color: #016ABC;
     color: white;
     font-size: 2rem;
+    border-color: #016ABC;
 }
+button:hover{
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    text-transform: uppercase;
+}
+
 aside{
     float: right;
     width: 20%;
@@ -246,7 +268,11 @@ aside img{
 }
 
 .expand{
-    text-decoration: none; 
+    text-decoration: none;}
+    
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
 }
 
 .copy{
@@ -264,5 +290,3 @@ footer a{
     color: black;
    
 }
-          
-            
