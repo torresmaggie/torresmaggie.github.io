@@ -102,7 +102,8 @@ h1{ letter-spacing: .125rem;
     margin: 1.125rem;
     text-align: center   
 }
-
+h1, span{font-size: 4rem;
+}
 h2{ letter-spacing: .125rem;
     font-family: 'josefinslab';
     font-size: 1.5rem;
